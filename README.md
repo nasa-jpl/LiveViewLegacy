@@ -15,7 +15,7 @@ Elliott Liggett:
 JPL email: [Elliott.Liggett@jpl.nasa.gov](mailto:Elliott.Liggett@jpl.nasa.gov)
 
 ## Overview
-*LiveView* is graphical program which displays real-time information about imagign data from imagine spectrometers. Liveview supports high data rate acquisition over CameraLink and via reading files created by other processes. The branch [**FlightView**](https://github.com/nasa-jpl/LiveViewLegacy/tree/flightview) is AVIRIS-III's flight acquisition system, and includes an RGB waterfall. 
+*LiveView* is graphical program which displays real-time information about image data from imaging spectrometers. Liveview supports high data rate acquisition over CameraLink and via reading files created by other processes. The branch [**FlightView**](https://github.com/nasa-jpl/LiveViewLegacy/tree/flightview) is AVIRIS-III's flight acquisition system, and includes an RGB waterfall. 
 
 Plots are implemented using the [QCustomPlot](http://www.qcustomplot.com) library, which generates live color maps, bar graphs, and line graphs within the Qt C++ environment.
 
@@ -55,7 +55,7 @@ Linux OS such as Ubuntu or Mint
 * s - Stop playback and return to the first frame
 return - Play/Pause
 * f - Fast Forward. Multiple presses increase the fast forward multiplier up to 64x faster.
-* r - Rewind. Multple presses inreas the rewind multiplier up to 64x faster.
+* r - Rewind. Multiple presses increase the rewind multiplier up to 64x faster.
 * a - Move back one frame. Only works when playback is paused.
 * d - Move forward one frame. Only works when playback is paused.
 
